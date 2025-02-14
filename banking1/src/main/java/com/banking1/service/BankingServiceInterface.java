@@ -16,4 +16,6 @@ public interface BankingServiceInterface {
 
 	Employee getEmployeeRecordByIdService(String email);
 
+	Employee checkLoginService(String email, String password);
+
 }
